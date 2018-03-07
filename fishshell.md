@@ -78,6 +78,7 @@ fishfileの中にインストールしたいプラグインを記述
 oh-my-fish/theme-agnoster
 fisherman/await
 oh-my-fish/plugin-extract
+oh-my-fish/plugin-balias
 fisherman/fzf
 fisherman/get
 fisherman/getopts
