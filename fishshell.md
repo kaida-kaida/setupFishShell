@@ -161,3 +161,24 @@ fishshellのパスは
 - fish_config
 ブラウザからfishshellの見た目をカスタマイズできる（colorsはなぜか効かない・・・）
 ここで設定したものは ~/.config/fish/fishd.****** に保存される
+
+
+## テーマの変更
+元のbashでは心許ないので、iTerm2に変更する。
+先ずは公式サイトからiTerm2をインストールしてくる。
+
+`http://iterm2.com/`
+
+```
+$ fisher install omf/theme-bobthefish
+$ mkdir powerline
+$ cd powerline
+$ git clone git@github.com:powerline/fonts.git
+$ cd fonts
+$ ./install.sh
+```
+shファイルを実行すること
+で`D2Codling for Powerline`フォントがインストールされる。
+
+後はこれをiTerm2のpreferenceから設定する
+カラーテーマは`solarized dark`にする。
